@@ -1,0 +1,76 @@
+body {
+    font-family: 'Assistant', sans-serif;
+}
+
+.menuPrincipal {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    font-size: 100%;
+    background-color: rgb(192, 184, 184);
+    color: #000;
+    width: 100%;
+    height: 70px;
+}
+
+.container {
+    width: 95%;
+    height: 60px;
+    position: relative;
+    display: inline-block;
+    padding: .25em 1.5em;
+}
+
+.menuPrincipalLogo {
+    width: 30%;
+    height: 60px;
+    border-left: 0;
+    text-align: left;
+    padding: .25;
+    padding-left: 1em;
+    color: #000;
+    font-size: 26px;
+}
+
+.menuPrincipalNavegacao {
+    width: 50%;
+    height: 60px;
+    top: 0;
+    right: 0;
+    position: absolute;
+    text-align: right;
+    padding: .25em;
+    padding-right: 1em;
+}
+
+.menuPrincipalNavegacao a {
+    text-decoration: none;
+    color: #000;
+    font-size: 23px;
+}
+
+ul, li {
+    list-style: none;
+    text-decoration-style: none;
+    display: inline;
+    color: #000;
+}
+
+.logo-icones {
+    display: inline-flex;
+    width: 100%;
+    height: 60px;
+}
+
+.iconeTecidos {
+    width: 30%;
+    height: 60px;
+}
+
+.nomeTecidos {
+    width: 30%;
+    height: 60px;   
+}
